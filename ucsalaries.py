@@ -25,7 +25,7 @@ rows = content_obj['rows']
 
 fieldnames = ['id', 'year', 'location', 'firstname', 'lastname', 'title', 'gross-pay', 'regular-pay', 'overtime-pay', 'other-pay' ] 
 
-csv_file = "ucla-salaries.csv"
+csv_file = "uc-salaries.csv"
 
 with open(csv_file, 'w', newline='') as csvfile:
     writer = csv.writer(csvfile)
